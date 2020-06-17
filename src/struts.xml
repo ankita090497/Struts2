@@ -7,6 +7,7 @@
 <struts>
 
 	<package name="default" extends="hibernate-default">
+
 		<action name="saveOrUpdateUser" method="saveOrUpdate" class="com.action.UserAction">
 			<result name="success" type="redirect">listUser</result>
 		</action>
