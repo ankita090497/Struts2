@@ -5,6 +5,7 @@
 "http://struts.apache.org/dtds/struts-2.0.dtd">
 
 <struts>
+
 	<package name="default" extends="hibernate-default">
 		<action name="saveOrUpdateUser" method="saveOrUpdate" class="com.action.UserAction">
 			<result name="success" type="redirect">listUser</result>
